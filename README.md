@@ -24,7 +24,7 @@ Major functions and there functionality
 * merge_chunks()
   - Purpose: It looks all the tiny chunks again, and sorts each into another set of files named "output" followed by index. 
   - Detailed steps: 
-    - Read the first element of all files into MinHeap data structure. All the while assigning each data an index of where it came from.
+    - Read the first element of all files into [MinHeap](https://www.geeksforgeeks.org/binary-heap/) data structure. All the while assigning each data an index of where it came from.
     - Pop form the heap and place into a dynamic array at index (i). And read more data from file of the pop'ed value index.
     - If there no more data in the file at index, then remove that file, since its no longer needed. Then increment the number of exhausted files. 
     - After that write from the dynamic array to the corresponding output index.
