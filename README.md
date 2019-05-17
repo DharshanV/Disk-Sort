@@ -20,7 +20,7 @@ Major functions and there functionality
   - T: size of each chunks
   - Purpose: It is to split one big file into tiny chunks that can fit into memory
 * sort_chunks()
-  - Purpose: It looks all the tiny chunks and sorts them using merge sort, and write it back to same text file
+  - Purpose: It looks all the tiny chunks and sorts them using [merge sort](https://www.geeksforgeeks.org/merge-sort/), and write it back to same text file
 * merge_chunks()
   - Purpose: It looks all the tiny chunks again, and sorts each into another set of files named "output" followed by index. 
   - Detailed steps: 
